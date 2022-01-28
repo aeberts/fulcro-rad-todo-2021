@@ -1,9 +1,9 @@
-(ns com.example.components.ring-middleware
+(ns com.alexeberts.todo-frt.components.ring-middleware
   (:require
     [clojure.string :as str]
-    [com.example.components.blob-store :as bs]
-    [com.example.components.config :as config]
-    [com.example.components.parser :as parser]
+    [com.alexeberts.todo-frt.components.blob-store :as bs]
+    [com.alexeberts.todo-frt.components.config :as config]
+    [com.alexeberts.todo-frt.components.parser :as parser]
     [com.fulcrologic.fulcro.networking.file-upload :as file-upload]
     [com.fulcrologic.fulcro.server.api-middleware :as server]
     [com.fulcrologic.rad.blob :as blob]

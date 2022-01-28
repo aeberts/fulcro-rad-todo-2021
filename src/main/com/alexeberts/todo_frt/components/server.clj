@@ -1,10 +1,10 @@
-(ns com.example.components.server
+(ns com.alexeberts.todo-frt.components.server
   (:require
     [org.httpkit.server :refer [run-server]]
     [mount.core :as mount :refer [defstate]]
     [taoensso.timbre :as log]
-    [com.example.components.config :refer [config]]
-    [com.example.components.ring-middleware :refer [middleware]]))
+    [com.alexeberts.todo-frt.components.config :refer [config]]
+    [com.alexeberts.todo-frt.components.ring-middleware :refer [middleware]]))
 
 (defstate http-server
   :start

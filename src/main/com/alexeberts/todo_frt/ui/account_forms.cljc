@@ -1,11 +1,11 @@
-(ns com.example.ui.account-forms
+(ns com.alexeberts.todo-frt.ui.account-forms
   "Sample RAD-based components"
   (:require
     #?(:clj  [com.fulcrologic.fulcro.dom-server :as dom :refer [div label input]]
        :cljs [com.fulcrologic.fulcro.dom :as dom :refer [div label input]])
     [clojure.string :as str]
-    [com.example.model-rad.account :as r.account]
-    [com.example.ui.file-forms :refer [FileForm]]
+    [com.alexeberts.todo-frt.model-rad.account :as r.account]
+    [com.alexeberts.todo-frt.ui.file-forms :refer [FileForm]]
     [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
     [com.fulcrologic.fulcro.mutations :refer [defmutation]]
     [com.fulcrologic.rad.control :as control]

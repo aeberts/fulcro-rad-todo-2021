@@ -1,4 +1,4 @@
-(ns com.example.model.account
+(ns com.alexeberts.todo-frt.model.account
   "Functions, resolvers, and mutations supporting `account`.
 
    DO NOT require a RAD model file in this ns. This ns is meant to be an ultimate

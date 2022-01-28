@@ -1,7 +1,7 @@
-(ns com.example.components.config
+(ns com.alexeberts.todo-frt.components.config
   (:require
     [com.fulcrologic.fulcro.server.config :as fserver]
-    [com.example.lib.logging :as logging]
+    [com.alexeberts.todo-frt.lib.logging :as logging]
     [mount.core :refer [defstate args]]
     [taoensso.timbre :as log]))
 

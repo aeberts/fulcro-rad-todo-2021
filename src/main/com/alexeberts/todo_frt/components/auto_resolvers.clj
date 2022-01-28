@@ -1,6 +1,6 @@
-(ns com.example.components.auto-resolvers
+(ns com.alexeberts.todo-frt.components.auto-resolvers
   (:require
-    [com.example.model-rad.attributes :refer [all-attributes]]
+    [com.alexeberts.todo-frt.model-rad.attributes :refer [all-attributes]]
     [mount.core :refer [defstate]]
     [com.fulcrologic.rad.resolvers :as res]
     [com.fulcrologic.rad.database-adapters.datomic :as datomic]

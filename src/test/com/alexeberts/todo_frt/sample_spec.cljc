@@ -1,4 +1,4 @@
-(ns com.example.sample-spec
+(ns com.alexeberts.todo-frt.sample-spec
   (:require
     [fulcro-spec.core :refer [specification assertions component =>]]))
 

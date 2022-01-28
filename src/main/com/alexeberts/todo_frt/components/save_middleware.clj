@@ -1,10 +1,10 @@
-(ns com.example.components.save-middleware
+(ns com.alexeberts.todo-frt.components.save-middleware
   (:require
     [com.fulcrologic.rad.middleware.save-middleware :as r.s.middleware]
     [com.fulcrologic.rad.database-adapters.datomic :as datomic]
-    [com.example.components.database :refer [datomic-connections]]
+    [com.alexeberts.todo-frt.components.database :refer [datomic-connections]]
     [com.fulcrologic.rad.blob :as blob]
-    [com.example.model-rad.attributes :refer [all-attributes]]))
+    [com.alexeberts.todo-frt.model-rad.attributes :refer [all-attributes]]))
 
 (def middleware
   (->

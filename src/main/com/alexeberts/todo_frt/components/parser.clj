@@ -1,15 +1,15 @@
-(ns com.example.components.parser
+(ns com.alexeberts.todo-frt.components.parser
   (:require
-    [com.example.components.auto-resolvers :refer [automatic-resolvers]]
-    [com.example.components.blob-store :as bs]
-    [com.example.components.config :refer [config]]
-    [com.example.components.database :refer [datomic-connections]]
-    [com.example.components.delete-middleware :as delete]
-    [com.example.components.save-middleware :as save]
-    [com.example.model-rad.attributes :refer [all-attributes]]
+    [com.alexeberts.todo-frt.components.auto-resolvers :refer [automatic-resolvers]]
+    [com.alexeberts.todo-frt.components.blob-store :as bs]
+    [com.alexeberts.todo-frt.components.config :refer [config]]
+    [com.alexeberts.todo-frt.components.database :refer [datomic-connections]]
+    [com.alexeberts.todo-frt.components.delete-middleware :as delete]
+    [com.alexeberts.todo-frt.components.save-middleware :as save]
+    [com.alexeberts.todo-frt.model-rad.attributes :refer [all-attributes]]
 
     ;; Require namespaces that define resolvers
-    [com.example.model.account :as m.account]
+    [com.alexeberts.todo-frt.model.account :as m.account]
 
     [com.fulcrologic.rad.attributes :as attr]
     [com.fulcrologic.rad.blob :as blob]

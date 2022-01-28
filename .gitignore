@@ -21,3 +21,5 @@ target
 .cpcache
 .shadow-cljs
 .clj-kondo/.cache
+package-lock.json
+yarn.lock

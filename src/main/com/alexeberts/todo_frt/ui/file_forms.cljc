@@ -1,6 +1,6 @@
-(ns com.example.ui.file-forms
+(ns com.alexeberts.todo-frt.ui.file-forms
   (:require
-    [com.example.model-rad.file :as r.file]
+    [com.alexeberts.todo-frt.model-rad.file :as r.file]
     [com.fulcrologic.rad.form-options :as fo]
     [com.fulcrologic.rad.form :as form]))
 

@@ -1,4 +1,4 @@
-(ns com.example.lib.logging
+(ns com.alexeberts.todo-frt.lib.logging
   "Some helpers to make logging a bit nicer."
   (:require
     [clojure.pprint :refer [pprint]]

@@ -1,7 +1,7 @@
-(ns com.example.client
+(ns com.alexeberts.todo-frt.client
   (:require
-    [com.example.application :refer [SPA]]
-    [com.example.ui.root :refer [Root LandingPage]]
+    [com.alexeberts.todo-frt.application :refer [SPA]]
+    [com.alexeberts.todo-frt.ui.root :refer [Root LandingPage]]
     [com.fulcrologic.fulcro.algorithms.timbre-support :refer [console-appender prefix-output-fn]]
     [com.fulcrologic.fulcro.application :as app]
     [com.fulcrologic.fulcro.components :as comp]
